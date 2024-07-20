@@ -1,6 +1,6 @@
-package com.example.demoJDK17.service;
+package com.example.weather_microservice.service;
 
-import com.example.demoJDK17.model.dto.CityWeatherDTO;
+import com.example.weather_microservice.model.dto.CityWeatherDTO;
 
 public interface ICityWeather {
 	CityWeatherDTO save(CityWeatherDTO cityWeather);

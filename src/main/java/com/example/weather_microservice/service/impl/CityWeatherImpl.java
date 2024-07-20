@@ -1,4 +1,4 @@
-package com.example.demoJDK17.service.impl;
+package com.example.weather_microservice.service.impl;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -14,10 +14,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import com.example.demoJDK17.model.CityWeather;
-import com.example.demoJDK17.model.dto.CityWeatherDTO;
-import com.example.demoJDK17.repository.CityWeatherRepository;
-import com.example.demoJDK17.service.ICityWeather;
+import com.example.weather_microservice.model.CityWeather;
+import com.example.weather_microservice.model.dto.CityWeatherDTO;
+import com.example.weather_microservice.repository.CityWeatherRepository;
+import com.example.weather_microservice.service.ICityWeather;
 
 import reactor.core.publisher.Mono;
 

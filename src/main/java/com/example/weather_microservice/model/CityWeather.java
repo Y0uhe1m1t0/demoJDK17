@@ -1,4 +1,4 @@
-package com.example.demoJDK17.model;
+package com.example.weather_microservice.model;
 
 import java.time.LocalDateTime;
 

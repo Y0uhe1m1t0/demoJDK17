@@ -1,4 +1,4 @@
-package com.example.demoJDK17.repository;
+package com.example.weather_microservice.repository;
 
 import java.util.Optional;
 
@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demoJDK17.model.CityWeather;
+import com.example.weather_microservice.model.CityWeather;
 
 @Repository
 public interface CityWeatherRepository extends CrudRepository<CityWeather, Integer>, PagingAndSortingRepository<CityWeather, Integer> {

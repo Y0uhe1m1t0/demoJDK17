@@ -1,4 +1,4 @@
-package com.example.demoJDK17.model.payload;
+package com.example.weather_microservice.model.payload;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.example.demoJDK17.controller;
+package com.example.weather_microservice.controller;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demoJDK17.model.dto.CityWeatherDTO;
-import com.example.demoJDK17.model.payload.CityWeatherResponse;
-import com.example.demoJDK17.service.impl.CityWeatherImpl;
+import com.example.weather_microservice.model.dto.CityWeatherDTO;
+import com.example.weather_microservice.model.payload.CityWeatherResponse;
+import com.example.weather_microservice.service.impl.CityWeatherImpl;
 
 @RestController
 @RequestMapping("/api/v2")
