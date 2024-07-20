@@ -1,4 +1,4 @@
-package com.example.demoJDK17;
+package com.example.weather_microservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
