@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demoJDK17</artifactId>
+	<artifactId>weather_microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demoJDK17</name>
+	<name>weather_microservice</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
