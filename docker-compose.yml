@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+
+  service-weather:
+    container_name: weather_microservice
+    build: .
+    image: weather_microservice:1.0.0
+    restart: always
+    ports:
+      - 9090:8092
